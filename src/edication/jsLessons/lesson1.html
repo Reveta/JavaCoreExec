@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    var name = "Hello starman";
+    var array = [];
+    var int = 5;
+    array[100] = 9000;
+    array[99] = 13123;
+    console.log(name + array);
+    var object = {name : "vasya", age : 21};
+    console.log(object['name']);
+    object.number = '1313213123';
+    console.log(object['number']);
+
+    for (var num of array){
+        console.log(num);
+    }
+
+    for (var key in object){
+        console.log(key + object[key]);
+    }
+
+    var namee = function (int) {
+        console.log(int * int)
+        };
+
+    namee(50);
+
+    function out() {
+        var xxx = 0;
+        function ins() {
+            return ++xxx;
+        }
+
+        return ins;
+    }
+    console.log(out());
+
+
+</script>
+
+</body>
+</html>
