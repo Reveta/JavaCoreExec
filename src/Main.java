@@ -5,6 +5,7 @@ import edication.Exec.Epam1.ArrayExes;
 import edication.Exec.Flash5.Flash;
 import edication.Exec.LetterGame6.Start;
 import edication.Exec.alcgo.lab1.Lab1;
+import edication.Exec.alcgo.lab1.Lab1Gunkevich;
 import edication.Exec.stringReplace4.Replace;
 
 public class Main {
@@ -35,7 +36,10 @@ public class Main {
 //        System.out.println(aquariumr.toString());
 
 
-        Lab1.start();
+//        Lab1.start();
+
+        Lab1Gunkevich.split(Lab1Gunkevich.writeConsole());
+
     }
 }
 
@@ -65,7 +69,7 @@ public class Main {
 Ваша задача найти человека, который быстрее всех пробежал дистанцию и вывести его имя и счет.
 (Опционально) Найдите человека, который прибежал вторым.
 
-String[] names = { "Elena", "Thomas", "Hamilton", "Suzie", "Phil", "Matt", "Alex", "Emma", "John", "James", "Jane", "Emily", "Daniel", "Neda", "Aaron", "Kate" };
+String[] name2s = { "Elena", "Thomas", "Hamilton", "Suzie", "Phil", "Matt", "Alex", "Emma", "John", "James", "Jane", "Emily", "Daniel", "Neda", "Aaron", "Kate" };
 
 int[] times = { 341, 273, 278, 329, 445, 402, 388, 275, 243, 334, 412, 393, 299, 343, 317, 265 };
 Решение*/
