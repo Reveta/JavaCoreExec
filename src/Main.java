@@ -6,7 +6,11 @@ import edication.Exec.Flash5.Flash;
 import edication.Exec.LetterGame6.Start;
 import edication.Exec.alcgo.lab1.Lab1;
 import edication.Exec.alcgo.lab1.Lab1Gunkevich;
+import edication.Exec.alcgo.lab1.Lab1Ver2Gunkevich;
+import edication.Exec.dich.Dich;
 import edication.Exec.stringReplace4.Replace;
+
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
@@ -38,7 +42,12 @@ public class Main {
 
 //        Lab1.start();
 
-        Lab1Gunkevich.split(Lab1Gunkevich.writeConsole());
+//      Lab1Gunkevich.split(Lab1Gunkevich.writeConsole());
+
+//        System.out.println(Dich.goodTeeth(Dich.createTeeth()));
+
+        List<Integer> split = Lab1Ver2Gunkevich.split(Lab1Ver2Gunkevich.writeConsole());
+        Lab1Ver2Gunkevich.viewList(Lab1Ver2Gunkevich.answerList);
 
     }
 }
@@ -47,7 +56,7 @@ public class Main {
 
 2. Сила тяжести на Луне примерно равна 17%, напишите программу, которая вычисляет ваш вес на Луне.
 
-3. Напишите метод, который будет увеличивать заданный элемент массива на 10%.
+3. Напишите метод, который будет увеличивать заданный элемент мsассива на 10%.
 
 4. Напишите метод, заменяющий в строке все вхождения слова «бяка» на «вырезано цензурой».
 
